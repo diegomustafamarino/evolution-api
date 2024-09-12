@@ -3438,7 +3438,7 @@ export class BaileysStartupService extends ChannelStartupService {
         subject: group.subject,
         subjectOwner: group.subjectOwner,
         subjectTime: group.subjectTime,
-        pictureUrl: picture.profilePictureUrl,
+        pictureUrl: picture.profilePictureUrl || null,
         size: group.participants.length,
         creation: group.creation,
         owner: group.owner,
